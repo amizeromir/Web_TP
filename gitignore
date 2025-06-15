@@ -1,0 +1,12 @@
+node_modules/
+www/
+dist/
+build/
+.android/
+ios/
+*.apk
+.env
+.DS_Store
+.idea/
+.vscode/
+
