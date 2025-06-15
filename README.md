@@ -40,8 +40,9 @@ Web_TP/
 
 ## 🧪 Installation locale
 
-### 1. Cloner le dépôt
 
+
+ ### 1. cloner le depot
 ```bash
 git clone https://github.com/ton-utilisateur/Web_TP.git
 cd Web_TP
