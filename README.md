@@ -1,6 +1,6 @@
 # 🐔 Web_TP – Gestion numérique de l'environnement d'un poulailler
 
-Ce projet, développé par **Desire Amizero**, regroupe trois applications interconnectées pour faciliter la gestion d’un poulailler :
+Ce projet, développé par **Desire Amizero**,dans le cadre d'un TP , regroupe trois applications interconnectées pour faciliter la gestion d’un poulailler :
 
 - **poulailler-web** : interface web Angular pour la visualisation des données.
 - **poulaillet-mobile** : application mobile Ionic pour la gestion sur smartphone.
