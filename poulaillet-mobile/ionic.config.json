@@ -1,0 +1,7 @@
+{
+  "name": "poulaillet-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

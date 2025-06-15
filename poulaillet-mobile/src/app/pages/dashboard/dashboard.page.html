@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>📊 Dashboard Mobile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Données en temps réel</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas
+        baseChart
+        [data]="lineChartData"
+        [options]="lineChartOptions"
+        [type]="'line'">
+      </canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="block" color="danger" routerLink="/logout">
+    Se déconnecter
+  </ion-button>
+</ion-content>

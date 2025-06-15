@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+  <span>📊 Dashboard du Poulailler</span>
+  <span class="spacer"></span>
+  <button mat-button (click)="exportCSV()">📤 Exporter CSV</button>
+  <button mat-button color="warn" (click)="logout()">🔓 Se déconnecter</button>
+</mat-toolbar>
+
+<mat-card>
+  <mat-card-title>📈 Courbes en temps réel</mat-card-title>
+  <mat-card-content>
+    <canvas
+      baseChart
+      [data]="lineChartData"
+      [options]="lineChartOptions"
+      [type]="'line'">
+    </canvas>
+  </mat-card-content>
+</mat-card>
+
+<style>
+  .spacer {
+    flex: 1 1 auto;
+  }
+</style>
