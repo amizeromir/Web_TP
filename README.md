@@ -42,8 +42,10 @@ Web_TP/
 
 
 
- ### 1. cloner le depot
-```bash
+
+```
+### 1. Cloner le depot
+
 git clone https://github.com/ton-utilisateur/Web_TP.git
 cd Web_TP
 
