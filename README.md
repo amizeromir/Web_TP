@@ -54,6 +54,7 @@ Backend
 cd poulailler-backend
 npm install
 npm start
+node simulator.js(lancer le script pour simuler l envoie de des donnes par les capteurs au broker MQTT)
 
 Web (Angular)
 
